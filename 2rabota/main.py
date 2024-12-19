@@ -15,11 +15,11 @@ class Movie(MovieBase):
     id: int
 
 MOVIES_DB: List[Movie] = [
-    Movie(id=1, name="Classic", description="A classic movie with a timeless story.", popularity=12),
-    Movie(id=2, name="Fortuna", description="A thrilling adventure about a quest for fortune.", popularity=4),
-    Movie(id=3, name="Epic", description="An epic tale of heroes and villains.", popularity=8),
-    Movie(id=4, name="Mystery", description="A mysterious story that keeps you guessing until the end.", popularity=6),
-    Movie(id=5, name="Romance", description="A heartwarming love story that will make you believe in love again.", popularity=10),
+    Movie(id=1, name="Fantastic beasts", description="Movie is about a magician who studies and protects magical creatures.", popularity=12),
+    Movie(id=2, name="Spider Man: No Way Home", description="Peter Parker fights new enemies and personal problems.", popularity=4),
+    Movie(id=3, name="Silver skates", description="Chance brings a messenger together with an aristocrat in Christmas Petersburg.", popularity=8),
+    Movie(id=4, name="Fire", description="A group of firefighters saves the forests of Karelia from fire.", popularity=6),
+    Movie(id=5, name="Home alone", description="A boy defends his home from burglars while his family is away.", popularity=10),
 ]
 
 app = FastAPI()
